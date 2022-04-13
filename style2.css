@@ -1,0 +1,14 @@
+body{
+  background-image:url('fin.jpg');
+}
+header {
+  background: blue;
+  color: white;
+  text-align: center;
+}
+.match {
+  display: grid;
+  grid-column: 1fr 1fr  1fr 1fr;
+  border: 2px;
+  box-shadow: 2px 2px gray;
+}

@@ -1,0 +1,26 @@
+*{
+  background-color: white;
+  border: 1px solid black;
+}
+aside {
+  align-self: flex-start;
+  height: 40px;
+}
+section {
+  align-self: flex-end;
+  height: 40px;
+}
+main {
+  align-self: flex-start;
+  height: 50px;
+}
+div {
+  height: 400px
+  display: flex;
+  border: 1px solid black;
+  align-items: stretch;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
